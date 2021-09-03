@@ -1,0 +1,42 @@
+{
+  "name": "RSimms",
+  "description": "Personal site based on the starter gatsby-theme-catalyst-lithum",
+  "version": "7.0.4",
+  "private": true,
+  "author": "Richard Simms <richard@rsimms.com>",
+  "dependencies": {
+    "@fontsource/quando": "^4.5.0",
+    "@fontsource/sriracha": "^4.5.0",
+    "gatsby": "^3.10.1",
+    "gatsby-plugin-sitemap": "^4.9.0",
+    "gatsby-theme-catalyst-lithium": "^7.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-rough-notation": "^1.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "keywords": [
+    "UX design",
+    "Product discovery",
+    "Product research"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ehowey/gatsby-starter-catalyst-blog"
+  },
+  "bugs": {
+    "url": "https://github.com/ehowey/gatsby-starter-catalyst-blog/issues"
+  }
+}
