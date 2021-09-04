@@ -57,12 +57,13 @@ const SiteBranding = () => {
             m: 0,
             fontFamily: "heading",
             fontWeight: "heading",
+            visibility: "hidden",
             fontSize: [3, 4, null, 5, null],
             textDecoration: "none",
             variant: "variants.siteTitle",
           }}
         >
-          
+          Richard Simms
         </span> 
       </Link> 
     </div>

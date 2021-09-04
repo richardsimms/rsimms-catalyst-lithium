@@ -52,10 +52,11 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.rsimms.com',
-        sitemap: 'https://www.rsimms.com/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
+        host: 'https://rsimms.com',
+        sitemap: 'https://rsimms.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }],
+        output: "/robots.txt",
+      },
     }, 
     {
       resolve: `gatsby-plugin-manifest`,
@@ -67,6 +68,19 @@ module.exports = {
         theme_color: `#6da3dc`,
         display: `minimal-ui`,
         icon: `content/assets/rsimms-site-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-56512737-4`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 295758,
+        sv: 6
       },
     },
   ],
