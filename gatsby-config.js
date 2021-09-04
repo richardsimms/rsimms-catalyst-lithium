@@ -49,7 +49,28 @@ module.exports = {
         postListTitle: "RECENTLY PUBLISHED",
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve:`gatsby-plugin-sitemap`,
+      options: {
+        excludes: ['/404', '/welcome'],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+          }
+        `,
+      },
+    },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
