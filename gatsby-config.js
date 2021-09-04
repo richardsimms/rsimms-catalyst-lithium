@@ -50,6 +50,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.rsimms.com',
+        sitemap: 'https://www.rsimms.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    }, 
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Richard Simms`,

@@ -24,7 +24,7 @@ const theme = merge(BaseTheme, {
     ...tailwind.colors,
     background: baseColors.gray[1], //Try "#954264",
     text: baseColors.gray[8],
-    textGray: baseColors.gray[6],
+    textGray: baseColors.gray[7],
     primary: baseColors.blue[7],
     secondary: baseColors.pink[6],
     accent: "#FAF8F9",

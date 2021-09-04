@@ -8,6 +8,7 @@
     "@fontsource/quando": "^4.5.0",
     "@fontsource/sriracha": "^4.5.0",
     "gatsby": "^3.10.1",
+    "gatsby-plugin-robots-txt": "^1.6.10",
     "gatsby-plugin-sitemap": "^4.9.0",
     "gatsby-theme-catalyst-lithium": "^7.0.4",
     "react": "^17.0.2",
