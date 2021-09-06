@@ -86,17 +86,8 @@ const theme = merge(BaseTheme, {
       lineHeight: "heading",
       m: 0,
       mb: 1,
-      fontSize: 2,
+      fontSize: 3,
       mt: 4,
-      "::after": {
-        display: "block",
-        content: '""',
-        width: "60px",
-        pt: 2,
-        borderBottomStyle: "solid",
-        borderBottomWidth: "4px",
-        borderBottomColor: "primary",
-      },
     },
     h2: {
       fontSize: 4,

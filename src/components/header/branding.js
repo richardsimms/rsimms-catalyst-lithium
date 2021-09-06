@@ -10,7 +10,7 @@ import { useSiteMetadata } from "gatsby-theme-catalyst-core"
 
 const SiteBranding = () => {
   // isNavOpen is a boolean that detects where the mobile navigation is open or closed
-  const [setIsNavOpen] = useContext(NavContext)
+  const [isNavOpen, setIsNavOpen] = useContext(NavContext)
   // Title and logo are sourced from the site metadata BUT you could very easily source and add your own raw values here. e.g. const title = "My Awesome Site". The logo is based of catalyst-site-logo.png, but you could replace this file with a different image of the same name or write your own query and replace the logo source entirely.
   const { title, logo } = useSiteMetadata()
   return (
