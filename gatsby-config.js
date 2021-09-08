@@ -35,7 +35,6 @@ module.exports = {
     ],
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-theme-catalyst-lithium`,
       options: {
@@ -50,9 +49,10 @@ module.exports = {
       },
     },
     {
-      resolve:`gatsby-plugin-sitemap`,
+      resolve:`gatsby-plugin-advanced-sitemap`,
       options: {
         excludes: ['/404', '/welcome'],
+        output: "/sitemap.xml",
       },
     },
     {

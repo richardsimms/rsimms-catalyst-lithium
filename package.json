@@ -8,6 +8,7 @@
     "@fontsource/quando": "^4.5.0",
     "@fontsource/sriracha": "^4.5.0",
     "gatsby": "^3.10.1",
+    "gatsby-plugin-advanced-sitemap": "^2.0.0",
     "gatsby-plugin-google-analytics": "^3.13.0",
     "gatsby-plugin-hotjar": "^1.1.1",
     "gatsby-plugin-robots-txt": "^1.6.10",
