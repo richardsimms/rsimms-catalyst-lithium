@@ -51,7 +51,12 @@ module.exports = {
     {
       resolve:`gatsby-plugin-advanced-sitemap`,
       options: {
-        excludes: ['/404', '/welcome'],
+        excludes: [
+          '/404', 
+          '/404.html', 
+          '/welcome',
+          '/unscubscribe',
+        ],
         output: "/sitemap.xml",
       },
     },

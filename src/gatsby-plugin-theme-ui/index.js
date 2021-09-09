@@ -170,7 +170,6 @@ const theme = merge(BaseTheme, {
       },
     },
     footer:	{
-
       div: {
         display: "flex",
         alignItems: "center",
@@ -182,7 +181,6 @@ const theme = merge(BaseTheme, {
             }
           }
       },
-      
        p:	{      
         fontSize: "1rem",
       },

@@ -1,20 +1,62 @@
-import React from "react";
+/** @jsx jsx */
+import { jsx, Themed, Button } from "theme-ui"
+import { darken } from "@theme-ui/color"
+
+
+
 
 export default function App() {
     return (
-        <form action="" class="mt-6">
-            <div class="my-5 text-sm">
-                <label for="username" class="block text-black">Username</label>
-                <input type="text" autofocus id="username" class="rounded-sm px-4 py-3 mt-3 focus:outline-none bg-gray-100 w-full" placeholder="Username" />
-            </div>
-            <div class="my-5 text-sm">
-                <label for="password" class="block text-black">Password</label>
-                <input type="password" id="password" class="rounded-sm px-4 py-3 mt-3 focus:outline-none bg-gray-100 w-full" placeholder="Password" />
-                <div class="flex justify-end mt-2 text-xs text-gray-600">
-                    <a href="../../pages/auth/forget_password.html  hover:text-black">Forget Password?</a>
-                </div>
-            </div>
-            <button class="block text-center text-white bg-gray-800 p-3 duration-300 rounded-sm hover:bg-black w-full">Login</button>
-        </form>
+
+    <form name="Newsletter" method="POST" netlify="true" action="/confirm">
+        <input type="hidden" name="form-name" value="Newsletter" />
+        <Themed.p>
+            <label
+                sx={{
+                fontSize: [2, null, null, null, 3],
+                
+                
+            }}
+            >
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="email@example.com" 
+                    required 
+                    sx={{
+                        lineHeight: [2],
+                        borderRadius: [0],
+                        width: "300px",
+                        fontSize: [2, null, null, null, 3],
+                      
+                    }}
+                />
+            </label>
+            <Button 
+                type="submit" 
+                sx={{
+                    bg: "#2b6cb0",
+                    fontSize: [2, null, null, null, 3],
+                    borderRadius: [0],
+                    marginTop: [2],
+                    transition: "all 0.3s ease-in-out",
+                    ":hover": {
+                        bg: darken("#2b6cb0", 0.08),
+                    },
+                }}
+                >
+                    Start growing!
+            </Button>
+                <Themed.p
+                sx={{
+                    fontSize: [1],
+                    marginTop: [1],
+                }}
+                >
+                Powered by Substack. <a href="https://substack.com/privacy">Privacy Policy</a>.
+                </Themed.p>
+            </Themed.p>
+    </form>
+
     );
 }
