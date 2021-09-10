@@ -27,6 +27,7 @@ export default function App() {
                         lineHeight: [2],
                         borderRadius: [0],
                         width: "300px",
+                        height: "48px",
                         fontSize: [2, null, null, null, 3],
                       
                     }}
@@ -39,6 +40,7 @@ export default function App() {
                     fontSize: [2, null, null, null, 3],
                     borderRadius: [0],
                     marginTop: [2],
+                    
                     transition: "all 0.3s ease-in-out",
                     ":hover": {
                         bg: darken("#2b6cb0", 0.08),
@@ -53,7 +55,11 @@ export default function App() {
                     marginTop: [1],
                 }}
                 >
-                Powered by Substack. <a href="https://substack.com/privacy">Privacy Policy</a>.
+                Powered by Substack. <a 
+                sx={{
+                    color: "primary",
+                }}
+                target="_blank" rel="nofollow noopener noreferrer" href="https://substack.com/privacy">Privacy Policy</a>. 
                 </Themed.p>
             </Themed.p>
     </form>

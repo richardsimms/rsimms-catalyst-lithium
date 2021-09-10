@@ -26,8 +26,7 @@ export default function App() {
       <Themed.p><label>Where did you hear about me?<br />
         <textarea
             sx={{
-              width: "100%",
-              
+              width: "100%",              
           }}
           name="referral"
           id="welcome-form-referral"
