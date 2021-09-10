@@ -10,6 +10,10 @@ module.exports = {
         name: `About`,
         link: `/about`,
       },
+      {
+        name: `Product discovery`,
+        link: `/categories/product-discovery`,
+      },
     ],
     socialLinks: [
       {
