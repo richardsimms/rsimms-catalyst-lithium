@@ -59,7 +59,7 @@ export default function App() {
                 sx={{
                     color: "primary",
                 }}
-                target="_blank" rel="nofollow noopener noreferrer" href="https://substack.com/privacy">Privacy Policy</a>. 
+                target="_blank" rel="noopener noreferrer" href="https://substack.com/privacy">Privacy Policy</a>. 
                 </Themed.p>
             </Themed.p>
     </form>
