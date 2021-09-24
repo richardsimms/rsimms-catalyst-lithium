@@ -60,6 +60,7 @@ module.exports = {
           '/404.html', 
           '/welcome',
           '/unscubscribe',
+          '/casestudies',
         ],
         output: "/sitemap.xml",
       },
