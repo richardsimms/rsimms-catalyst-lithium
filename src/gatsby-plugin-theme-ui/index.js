@@ -16,7 +16,7 @@ const theme = merge(BaseTheme, {
       em: '"@fontsource/sriracha", sans-serif',
   },
   fontWeights: {
-    body: 400,
+    body: 300,
     heading: 400,
     bold: 700,
   },
