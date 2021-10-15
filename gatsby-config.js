@@ -81,7 +81,7 @@ module.exports = {
         short_name: `Richard`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#6da3dc`,
+        theme_color: `background`,
         display: `minimal-ui`,
         icon: `content/assets/rsimms-site-icon.png`, // This path is relative to the root of the site.
       },

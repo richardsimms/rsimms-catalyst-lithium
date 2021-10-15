@@ -22,12 +22,12 @@ const theme = merge(BaseTheme, {
   },
   colors: {
     ...tailwind.colors,
-    background: baseColors.gray[1], //Try "#954264",
+    background: baseColors.gray[1], 
     text: baseColors.gray[8],
     textGray: baseColors.gray[7],
     primary: baseColors.blue[7],
     secondary: baseColors.pink[7],
-    accent: "#FAF8F9",
+    accent: "hsl(220deg 60% 90%)",
     highlight: "#D15E29",
     muted: baseColors.gray[2],
     header: {
@@ -50,7 +50,7 @@ const theme = merge(BaseTheme, {
         background: baseColors.gray[9],
         text: baseColors.gray[1],
         textGray: "#9f9f9f",
-        primary: "#6da3dc",
+        primary: baseColors.blue[4],
         secondary: baseColors.pink[4],
         accent: baseColors.gray[8],
         highlight: baseColors.orange[5],
@@ -64,7 +64,7 @@ const theme = merge(BaseTheme, {
           iconsOpen: baseColors.gray[1],
         },
         footer: {
-          background: "#232946",
+          background: baseColors.blue[9],
           text: baseColors.gray[1],
           links: baseColors.gray[1],
           icons: baseColors.gray[1],
@@ -76,7 +76,7 @@ const theme = merge(BaseTheme, {
     ...tailwind.sizes,
     maxPageWidth: "1440px", // Sets the max width of elements like the header/footer large screens
     maxContentWidth: "720px", // Sets the container size on larger screens, e.g. tablets and laptops
-    iconsFooter: "32px", // Sets the icons size for the footer
+    iconsFooter: "20px", // Sets the icons size for the footer
     iconsHeader: "20px", // Sets the icons size for the header
   },
   styles: {
@@ -97,8 +97,15 @@ const theme = merge(BaseTheme, {
     },
     em: {
       color: "secondary",
-    }
 
+    },
+    p: {
+      marginTop: "0.5rem",
+      marginBottom: "2rem",
+    },
+    a: {
+      fontWeight: "500",
+    }
   },
 
   variants: {
@@ -183,6 +190,7 @@ const theme = merge(BaseTheme, {
       },
        p:	{      
         fontSize: "1rem",
+        
       },
     },
     postListTitle: {
