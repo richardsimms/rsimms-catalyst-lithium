@@ -49,7 +49,7 @@ module.exports = {
         excerptLength: 140,
         // Lithium theme
         useHero: true,
-        postListTitle: "RECENTLY PUBLISHED",
+        postListTitle: "Recently published",
       },
     },
     {

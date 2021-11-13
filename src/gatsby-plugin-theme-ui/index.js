@@ -80,6 +80,7 @@ const theme = merge(BaseTheme, {
     iconsHeader: "20px", // Sets the icons size for the header
   },
   styles: {
+    
     h1: {
       fontFamily: "heading",
       fontWeight: "heading",
@@ -176,6 +177,7 @@ const theme = merge(BaseTheme, {
         boxShadow: "none",
       },
     },
+    header: {padding: "2rem"},
     footer:	{
       div: {
         display: "flex",

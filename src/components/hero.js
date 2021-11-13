@@ -58,8 +58,8 @@ const Hero = () => {
               gridRow: ["2 / 3", null, "1 / 2", null, null],
             }}
           >
-            <Themed.p sx={{ fontSize: [3, null, null, null, 4] }}>
-              I write about how to listen to your customers and understand their motivations. So you can design for {" "}
+            <Themed.h1 sx={{ fontSize: [5, null, null, null, 4] }}>
+              Design for {" "}
               {hasMounted ? (
                 <Fragment>
                   <RoughNotation type="underline" show={true} strokeWidth={3}>
@@ -69,18 +69,23 @@ const Hero = () => {
                   <RoughNotation type="underline" show={true} strokeWidth={3}>
                     uncertain.
                   </RoughNotation>
-                  Connecting the dots, between business design and customers experience to deliver business growth.
+                  
                 </Fragment>
               ) : (
                 "clarity and uncertain."
               )}  
+            </Themed.h1>
+            <Themed.p>
+            Connecting the dots, between business design and customers experience to deliver business growth.
             </Themed.p>
+            
             <Button
               as={Link}
               to="/subscribe"
               sx={{
                 bg: "#2b6cb0",
                 fontSize: [2, null, null, null, 3],
+                fontWeight: 500,
                 transition: "all 0.3s ease-in-out",
                 ":hover": {
                   bg: darken("#2b6cb0", 0.08),
