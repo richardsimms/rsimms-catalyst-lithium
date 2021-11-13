@@ -177,7 +177,11 @@ const theme = merge(BaseTheme, {
         boxShadow: "none",
       },
     },
-    header: {padding: "2rem"},
+    header: {
+      paddingLeft: "2rem",
+      paddingRight: "2rem",
+      paddingTop: "2rem",
+    },
     footer:	{
       div: {
         display: "flex",
