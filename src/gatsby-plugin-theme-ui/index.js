@@ -178,9 +178,9 @@ const theme = merge(BaseTheme, {
       },
     },
     header: {
-      paddingLeft: "2rem",
-      paddingRight: "2rem",
-      paddingTop: "2rem",
+      paddingLeft: "1rem",
+      paddingRight: "1rem", //1rem <770 2rem < 1024 4rem
+      paddingTop: "1rem",
     },
     footer:	{
       div: {

@@ -21,6 +21,7 @@ const SiteBranding = () => {
         alignItems: "center",
         mr: 2,
         variant: "variants.branding",
+        marginLeft: ["0rem", "1rem", "2rem", "3rem"],
       }}
     >
       <Link
