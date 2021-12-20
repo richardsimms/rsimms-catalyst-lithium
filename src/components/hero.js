@@ -57,9 +57,13 @@ const Hero = () => {
               gridRow: ["2 / 3", null, "1 / 2", null, null],
             }}
           >
-            <Themed.h1 sx={{ fontSize: [6, null, 7, null, 8] }}>
-              Design for {" "}
-              {hasMounted ? (
+            <Themed.h1 
+              sx={{ 
+                fontSize: [6, null, 7, null, 8] 
+                
+                }}>
+
+              Design for {" "} {hasMounted ? (
                 <Fragment>
                   <RoughNotationGroup>
                   <RoughNotation type="underline" order="1" show={true} strokeWidth={3}>
