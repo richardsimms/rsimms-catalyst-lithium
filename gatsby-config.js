@@ -2,9 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Richard Simms`,
     description: `Designing for clarity when everything is uncertain.`,
-    keywords: [`discovery`, `design`, `UX`, `blog`],
+    keywords: [`discovery`, `product`, `strategy`, `design`, `UX`, `blog`],
     author: `Richard Simms`,
-    siteUrl: `https://rsimms.com`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
+    siteUrl: `https://rsimms.com`, 
     menuLinks: [
       {
         name: `About`,
@@ -13,6 +13,10 @@ module.exports = {
       {
         name: `Product discovery`,
         link: `/categories/product-discovery`,
+      },
+      {
+        name: `Case studies`,
+        link: `/categories/case-study`,
       },
     ],
     socialLinks: [
@@ -60,6 +64,7 @@ module.exports = {
           '/404.html', 
           '/welcome',
           '/unscubscribe',
+          '/case-study',
           '/casestudies',
         ],
         output: "/sitemap.xml",

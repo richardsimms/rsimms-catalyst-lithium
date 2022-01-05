@@ -28,7 +28,7 @@ const SiteBranding = () => {
         // Link wrapper that points back to the homepage when clicked
         to="/"
         onClick={() => setIsNavOpen(false)}
-        sx={{ textDecoration: "none" }}
+        sx={{ textDecoration: "none", justifySelf: "center" }}
       >
         <GatsbyImage
           // Logo
