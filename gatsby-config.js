@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         name: `Case studies`,
-        link: `/categories/case-study`,
+        link: `/casestudies`,
       },
     ],
     socialLinks: [
