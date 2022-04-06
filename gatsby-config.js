@@ -97,12 +97,12 @@ module.exports = {
         trackingId: `UA-56512737-4`,
       },
     },
-    /* {
+     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
         id: 295758,
         sv: 6
       },
-    }, */
+    }, 
   ],
 }
