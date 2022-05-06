@@ -50,7 +50,7 @@ module.exports = {
         remarkImagesWidth: 1920,
         useStickyHeader: true,
         // Blog theme
-        excerptLength: 140,
+        excerptLength: 0,
         // Lithium theme
         useHero: true,
         postListTitle: "Recently published",
