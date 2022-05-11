@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, Themed, Button } from "theme-ui"
+import { jsx, Themed } from "theme-ui"
 // import { darken } from "@theme-ui/color"
 // import { Link, graphql, useStaticQuery } from "gatsby"
 // import { GatsbyImage } from "gatsby-plugin-image"
