@@ -2,7 +2,6 @@
 import { jsx, Themed } from "theme-ui"
 import { Link } from "gatsby"
 import { Seo, Layout } from "gatsby-theme-catalyst-core"
-import { FaRegClock } from "react-icons/fa"
 
 
 const CategoryPage = ({ posts, category }) => {
