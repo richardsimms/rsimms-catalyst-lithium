@@ -4,7 +4,7 @@ export const useCatalystBlogConfig = () => {
     graphql`
       query {
         
-        catalystBlogConfig {
+        catalystBlogConfig  {
           postListTitle
           displayPostListTitle
       
