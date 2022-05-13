@@ -58,7 +58,7 @@ const Hero = () => {
             }}
           >
             <Themed.h1 sx={{ fontSize: [6, null, 7, null, 8] }}> 
-            Design for {" "} 
+            Designing for {" "} 
             {hasMounted ? (
                 <Fragment>
                   <RoughNotationGroup>
@@ -76,7 +76,7 @@ const Hero = () => {
               )}  
             </Themed.h1>
             <Themed.h2>
-            Connecting the dots, between business design and customers experience to deliver business growth.
+            I help cnnecting the dots, between business design and customers experience to deliver business growth.
             </Themed.h2>
             
 {/*             <Button
