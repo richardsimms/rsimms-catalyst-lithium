@@ -8,7 +8,6 @@ const Post = ({ data: { post }, previous, next }) => (
   <Layout>
     <Seo title={post.title} description={post.excerpt} />
     <Themed.h1>{post.title}</Themed.h1>
-    <Themed.p>{post.date}</Themed.p>
     <MDXRenderer>{post.body}</MDXRenderer>
     {previous && (
       <Themed.a as={Link} to={previous.slug} rel="prev">

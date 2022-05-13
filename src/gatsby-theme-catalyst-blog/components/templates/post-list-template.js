@@ -17,7 +17,6 @@ const PostsList = ({ posts }) => {
             <Themed.a as={Link} to={post.slug}>
               <Themed.h2>{title}</Themed.h2>
             </Themed.a>
-            <Themed.p>{post.date}</Themed.p>
             <Themed.p>{post.excerpt}</Themed.p>
           </article>
         )

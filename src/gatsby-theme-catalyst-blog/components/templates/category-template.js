@@ -35,7 +35,6 @@ const CategoryPage = ({ posts, category }) => {
                   variant: "variants.postListMeta",
                 }}
               >
-                {post.date} &bull;{" "}
                 <FaRegClock
                   sx={{
                     position: "relative",
