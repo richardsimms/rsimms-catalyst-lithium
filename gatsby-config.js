@@ -53,7 +53,7 @@ module.exports = {
         excerptLength: false,
         // Lithium theme
         useHero: true,
-        postListTitle: "Leading design, through product discovery and delivery",
+        postListTitle: "Leading the product",
       },
     },
     {

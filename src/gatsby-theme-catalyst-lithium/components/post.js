@@ -147,7 +147,6 @@ const Post = ({ data: { post }, previous, next }) => (
               variant: "variants.postMeta",
             }}
           >
-            {post.date} &bull;{" "}
             <FaRegClock
               sx={{
                 position: "relative",

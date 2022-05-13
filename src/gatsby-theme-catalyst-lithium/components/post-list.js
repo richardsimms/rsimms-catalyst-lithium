@@ -154,32 +154,6 @@ const PostsList = ({ posts }) => {
                       </Themed.h2>
                       <Themed.p
                         sx={{
-                          color: "textGray",
-                          fontSize: 1,
-                          textTransform: "uppercase",
-                          letterSpacing: "wider",
-                          m: 0,
-                          a: {
-                            color: "textGray",
-                            textDecoration: "none",
-                            ":hover": {
-                              textDecoration: "underline",
-                            },
-                          },
-                          variant: "variants.postListMeta",
-                        }}
-                      >
-                        {post.date} &bull;{" "}
-                        <FaRegClock
-                          sx={{
-                            position: "relative",
-                            top: "0.125em",
-                          }}
-                        />{" "}
-                        {post.timeToRead} Min
-                      </Themed.p>
-                      <Themed.p
-                        sx={{
                           variant: "variants.postListExcerpt",
                         }}
                       >
