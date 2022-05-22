@@ -76,7 +76,7 @@ const Hero = () => {
               )}  
             </Themed.h1>
             <Themed.h2>
-            I help cnnecting the dots, between business design and customers experience to deliver business growth.
+            I help connect the dots, between business design and customers experience to deliver business growth.
             </Themed.h2>
             
 {/*             <Button
