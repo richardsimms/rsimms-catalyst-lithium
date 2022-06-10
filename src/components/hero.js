@@ -25,7 +25,8 @@ const Hero = () => {
         width: "100vw",
         position: "relative",
         left: "calc(-50vw + 50%)",
-        mb: 4,
+        mt: 6,
+        mb: 5,
       }}
     >
       <div
@@ -57,7 +58,7 @@ const Hero = () => {
               gridRow: ["2 / 3", null, "1 / 2", null, null],
             }}
           >
-            <Themed.h1 sx={{ fontSize: [6, null, 7, null, 8] }}> 
+            <Themed.h1 sx={{ fontSize: [5, null, 6, null, 8], mb: 4,}}> 
             Designing for {" "} 
             {hasMounted ? (
                 <Fragment>
@@ -75,7 +76,8 @@ const Hero = () => {
                 "clarity and uncertain."
               )}  
             </Themed.h1>
-            <Themed.h2>
+            
+            <Themed.h2 sx={{ fontSize: [3, null, 4, null, 6]}}> 
             I help connect the dots, between business design and customers experience to deliver business growth.
             </Themed.h2>
             
