@@ -25,7 +25,7 @@ const Hero = () => {
         width: "100vw",
         position: "relative",
         left: "calc(-50vw + 50%)",
-        mt: 6,
+        mt: 5,
         mb: 5,
       }}
     >
@@ -79,7 +79,7 @@ const Hero = () => {
             </Themed.h1>
             
             <Themed.h2 sx={{ fontSize: [3, null, 4, null, 6]}}>
-I help connect the dots, between business design and customers experience to design products that deliver business growth.
+I help connect the dots, between business design and customers experience to design products that deliver business value.
             </Themed.h2>
             
 {/*             <Button
