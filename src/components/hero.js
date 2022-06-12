@@ -66,19 +66,19 @@ const Hero = () => {
                   <RoughNotation type="underline" order="1" show={true} strokeWidth={3}>
                   clarity
                   </RoughNotation>
-                  <span>  when everything is  </span>
+                  <span> through continuous </span>
                   <RoughNotation type="underline" order="2" show={true} strokeWidth={5}>
-                    uncertain.
+                    discovery
                   </RoughNotation>
                   </RoughNotationGroup>
                 </Fragment>
               ) : (
-                "clarity and uncertain."
+                "coaching & practice."
               )}  
             </Themed.h1>
             
-            <Themed.h2 sx={{ fontSize: [3, null, 4, null, 6]}}> 
-            I help connect the dots, between business design and customers experience to deliver business growth.
+            <Themed.h2 sx={{ fontSize: [3, null, 4, null, 6]}}>
+I help connect the dots, between business design and customers experience to design products that deliver business growth.
             </Themed.h2>
             
 {/*             <Button
