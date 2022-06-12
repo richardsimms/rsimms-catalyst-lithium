@@ -70,6 +70,7 @@ const Hero = () => {
                   <RoughNotation type="underline" order="2" show={true} strokeWidth={5}>
                     discovery
                   </RoughNotation>
+                  <span> coaching & practice. </span>
                   </RoughNotationGroup>
                 </Fragment>
               ) : (
