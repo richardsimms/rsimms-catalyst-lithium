@@ -79,7 +79,7 @@ const Hero = () => {
             </Themed.h1>
             
             <Themed.h2 sx={{ fontSize: [3, null, 4, null, 6]}}>
-I help connect the dots, between business design and customers experience to design products that deliver business value. I work with product teams on an ongoing basis to lead the product design and discovery process, to confidently deliver what customers need.
+I help connect the dots, between business design and customers experience to design products that deliver business value. I work with product teams to lead the product design and discovery process, to confidently deliver customers value.
             </Themed.h2>
             
 {/*             <Button
