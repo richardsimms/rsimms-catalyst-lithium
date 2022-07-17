@@ -39,7 +39,7 @@ const theme = merge(BaseTheme, {
       iconsOpen: baseColors.gray[8],
     },
     footer: {
-      background: baseColors.gray[1],
+      // background: baseColors.gray[1],
       text: baseColors.blue[8],
       links: baseColors.blue[8],
       icons: baseColors.blue[8],
