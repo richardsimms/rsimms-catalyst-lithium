@@ -6,6 +6,9 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import { useCatalystBlogConfig } from "gatsby-theme-catalyst-blog"
 import { useLithiumConfig } from "gatsby-theme-catalyst-lithium"
 import Hero from "./hero"
+import TextLoop from "react-text-loop";
+
+
 
 const PostsList = ({ posts }) => {
   const { postListTitle, displayPostListTitle } = useCatalystBlogConfig()
@@ -51,9 +54,16 @@ const PostsList = ({ posts }) => {
               <Themed.h1
                 sx={{
                   variant: "variants.postListPageTitle",
+
                 }}
               >
-                {postListTitle}
+              A passionate{" "}
+              <TextLoop springConfig={{ stiffness: 180, damping: 12 }}>
+                    <span>product leader</span>
+                    <span>UX researcher</span>
+                    <span>product designer</span>
+                    <span>writer</span>
+                </TextLoop>
               </Themed.h1>
             ) : null}
             {posts.map((post) => {
