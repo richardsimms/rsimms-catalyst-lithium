@@ -60,6 +60,7 @@ const PostsList = ({ posts }) => {
               A passionate{" "}
               <TextLoop springConfig={{ stiffness: 180, damping: 12 }}>
                     <span>product leader</span>
+                    <span>growth designer</span>
                     <span>UX researcher</span>
                     <span>product designer</span>
                     <span>writer</span>
