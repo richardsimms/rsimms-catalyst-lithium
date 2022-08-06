@@ -54,10 +54,11 @@ const PostsList = ({ posts }) => {
               <Themed.h1
                 sx={{
                   variant: "variants.postListPageTitle",
+                  gridColumn: "1/span 2",
 
                 }}
               >
-              A passionate{" "}
+              I'm a passionate{" "}
               <TextLoop springConfig={{ stiffness: 180, damping: 12 }}>
                     <span>product leader</span>
                     <span>growth designer</span>
