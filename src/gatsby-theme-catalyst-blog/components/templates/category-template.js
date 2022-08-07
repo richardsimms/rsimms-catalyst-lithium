@@ -8,6 +8,7 @@ const CategoryPage = ({ posts, category }) => {
   return (
     <Layout>
       <Seo title={category} />
+      <Seo description={category +" articles, techniques and learnings"} />
       <Themed.h1>{category}</Themed.h1>
       <Themed.ul
         sx={({

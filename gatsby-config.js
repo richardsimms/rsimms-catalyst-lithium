@@ -66,6 +66,7 @@ module.exports = {
           '/unscubscribe',
           '/case-study',
           '/casestudies',
+          '/categories/case-study/',
         ],
         output: "/sitemap.xml",
       },
