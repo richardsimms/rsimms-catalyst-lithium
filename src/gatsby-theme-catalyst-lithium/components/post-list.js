@@ -117,7 +117,7 @@ const PostsList = ({ posts }) => {
                     />
                     <div
                       sx={{
-                        p: 3,
+                        p: 0,
                       }}
                     >
                       <Themed.ul
