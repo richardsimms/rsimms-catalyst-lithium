@@ -54,7 +54,7 @@ const PostsList = ({ posts }) => {
               <Themed.h1
                 sx={{
                   variant: "variants.postListPageTitle",
-                  gridColumn: "1/span 2",
+                  gridColumn: ["1 / -1", null, "1 / span 2", null, null],
 
                 }}
               >
